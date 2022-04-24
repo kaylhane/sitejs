@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site JS</title>
+</head>
+<body>
+    <form oction="#">
+        <label for="usuário">
+            usuário
+        </label>
+        <input
+        type="text"
+        id="usuário"
+        name="usuário"
+        placeholder="Digite aqui o seu nome">
+        <button type="reset">Limpar Dados</button>
+        </button onclick="alert(document.getElementById('usuário').value)">
+            clique para ver seu nome
+        </button>
+    </form>
+<!-- <div id="resultado"></div> -->
+    <script>
+        /* alert('Bem vidos a aula'*/
+        // var a = 5
+        // var b = 4
+        // var r = a + b
+        // alert(r)
+        document.getElementById('resultado').innerHTML = '<h1>Hello word<h1>'
+        let x = 5
+        let y = 4
+        let r = x * y
+        document.getElementById('resultado').innerHTML += "x = 5 * y = 4 : " + r
+    </script>
+    
+</body>
+</html>
